@@ -1,17 +1,17 @@
-# 📊 Playstore EDA Project
+# Playstore EDA Project
 
-## 📌 Overview
+## Overview
 This project performs **Exploratory Data Analysis (EDA)** on the Google Playstore dataset to uncover insights about app categories, ratings, installs, and more. The goal is to clean, analyze, and visualize the data to better understand trends in the app ecosystem.
 
 ---
 
-## 📂 Project Files
+## Project Files
 - `Rashmi_playstore_EDA_project.ipynb` → Jupyter Notebook with complete analysis and visualizations  
 - `README.md` → Project documentation (this file)  
 
 ---
 
-## 🚀 Features
+## Features
 - Data cleaning and preprocessing  
 - Handling missing values and outliers  
 - Exploratory Data Analysis (EDA) with charts & plots  
@@ -20,7 +20,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python 🐍  
 - Pandas  
 - NumPy  
@@ -31,7 +31,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 
 ---
 
-## 📊 Insights
+## Insights
 Some key findings include:
 - Distribution of app ratings  
 - Most popular app categories  
