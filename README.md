@@ -6,7 +6,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 ---
 
 ## Project Files
-- `Rashmi_playstore_EDA_project.ipynb` → Jupyter Notebook with complete analysis and visualizations  
+- `Rashmi_playstore_EDA_project.ipynb` → Google Colab with complete analysis and visualizations  
 - `README.md` → Project documentation (this file)  
 
 ---
@@ -26,7 +26,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 - NumPy  
 - Matplotlib  
 - Seaborn  
-- Jupyter Notebook  
+- Google Colab
 
 
 ---
