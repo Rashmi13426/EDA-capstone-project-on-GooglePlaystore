@@ -69,9 +69,17 @@ Correlation Heatmap: Ratings show weak correlation with installs, but reviews ar
 
 Scatter Analysis: Reviews vs Ratings reveal engagement patterns, while Size vs Installs indicates storage doesn’t strongly influence popularity.
 
-## Audience Segmentation
+## Audience Segmentation:
 
 Content Rating Distribution: Most apps target Everyone, followed by Teen, indicating family-friendly app dominance.
+
+## Visualization Techniques
+
+* Bar Charts:  Category distribution, top apps, missing values
+* Histograms:  Ratings, installs, reviews, app sizes
+* Boxplots:  Ratings, installs, reviews by category/type
+* Scatter Plots:  Correlations between key metrics
+* Heatmaps:  Correlation analysis of numeric features
 
 ## Project Environment
 
