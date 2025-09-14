@@ -36,9 +36,6 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 
 Missing Values: Identified missing data in both apps and reviews datasets to ensure clean analysis.
 
-## Outlier Detection: 
-Addressed anomalies in installs, app sizes, and ratings for reliable insights.
-
 ## App Distribution:
 
 Category-wise App Distribution: Games and Family dominate the Play Store, while niche categories like Medical and Maps & Navigation have fewer apps.
