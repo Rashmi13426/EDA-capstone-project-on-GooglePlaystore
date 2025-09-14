@@ -63,27 +63,20 @@ Free apps dominate installs: The median installs for free apps are far higher th
 - Google’s own ecosystem apps — Drive, Photos, News, Maps, Hangouts — are strongly represented, proving the success of cross-platform integration.
 - Social and Communication apps (Instagram, Messenger, WhatsApp) continue to dominate user attention, indicating their importance in daily engagement.
 
-## Popularity & Installs:
+## Insights from Visualization 9: Correlation Heatmap
+Reviews ↔ Installs (0.64): Strong positive correlation — more installs lead to more reviews, which is logical since a bigger user base creates more engagement.
 
-Top 10 Apps by Installs: Market leaders like WhatsApp, Facebook, and Instagram dominate user adoption.
+## Insights from Visualization 10: Price Distribution of Paid Apps Only(histplot):
+- Most paid apps are priced very low (under $10).
+- There are very few apps priced above $20, and they form long-tail outliers.
+- The distribution is highly skewed → majority of developers avoid premium pricing.
+Suggests a “race-to-the-bottom” pricing strategy in app stores, where affordability drives adoption.
 
-Installs by Category: Games and Communication apps have the highest average installs.
+## Insights from Chart - 11: Distribution of App Ratings(histogram):
+Most apps are rated between 4.0 and 4.5, which suggests that the majority of users are generally satisfied.
 
-## App Characteristics:
-
-Size vs Installs: Larger app size does not necessarily imply more installs.
-
-Boxplots by Category: Certain categories like Photography show high size variability.
-
-## Correlations & Relationships:
-
-Correlation Heatmap: Ratings show weak correlation with installs, but reviews are moderately correlated with installs.
-
-Scatter Analysis: Reviews vs Ratings reveal engagement patterns, while Size vs Installs indicates storage doesn’t strongly influence popularity.
-
-## Audience Segmentation:
-
-Content Rating Distribution: Most apps target Everyone, followed by Teen, indicating family-friendly app dominance.
+## Insights from Chart - 12: Top 15 App Categories by Total Installs(bar plot):
+Game, Communication, and Tools dominate with the highest total installs. This shows where user engagement and demand are concentrated.
 
 ## Visualization Techniques
 
