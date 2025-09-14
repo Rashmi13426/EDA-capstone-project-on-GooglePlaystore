@@ -28,25 +28,40 @@ This project performs **Exploratory Data Analysis (EDA)** on the Google Playstor
 - Seaborn  
 - Google Colab
 
+## Data Cleaning and Insights:
 
----
+- Removed misaligned row at Index 10472 where columns were misplaced from playstore data.
+- Standardized Size column (converted to bytes), handling:
+  * M → Megabytes
+  * K → Kilobytes
+  *  * Varies with device → replaced with NaN
+   
+ - Filled missing values:
+   * Rating → filled with mean
+   * Size_in_Bytes → filled with median
+
+ - Cleaned Installs by removing + and converting to integer.
+ - Cleaned Price by removing $ and converting to float.
+ - Converted Reviews to integer.
+ - Dropped rows with missing values in critical columns (Current Ver, Android Ver, and Type).
+
+ - Out of 64k reviews, 26k were missing review text and corresponding sentiment values. These rows were dropped since they provide no meaningful insights for sentiment analysis. The cleaned dataset now contains ~38k valid reviews.
+
+
 ## Key Insights from EDA:
 
-## Data Quality Checks:
+## Insights from Visualization 3: Paid vs Free Apps Installs(bar plot):
+Free apps dominate installs: The median installs for free apps are far higher than paid apps.
 
-Missing Values: Identified missing data in both apps and reviews datasets to ensure clean analysis.
+## Insihghts from Visualization 5: Sentiment Analysis of Reviews(count plot):
+- The majority of reviews are positive, showing that users are generally satisfied with Play Store apps.
+- A significant number of negative reviews exist, highlighting areas for improvement such as bugs, ads, or performance issues.
+- Neutral reviews are fewer, suggesting that most users express clear opinions rather than indifference.
 
-## App Distribution:
-
-Category-wise App Distribution: Games and Family dominate the Play Store, while niche categories like Medical and Maps & Navigation have fewer apps.
-
-App Type Distribution: Majority of apps are Free, highlighting the freemium model dominance.
-
-## Ratings & Reviews:
-
-Rating Distribution: Most apps are clustered around 4–4.5 stars.
-
-Reviews Analysis: Apps with high review counts don’t always have the highest ratings, indicating potential engagement-quality discrepancies.
+## Insights from Visualization 7: Top 10 Installed Apps(bar plot):
+- Subway Surfers is the standout, crossing 6 billion installs, ahead of other major apps.
+- Google’s own ecosystem apps — Drive, Photos, News, Maps, Hangouts — are strongly represented, proving the success of cross-platform integration.
+- Social and Communication apps (Instagram, Messenger, WhatsApp) continue to dominate user attention, indicating their importance in daily engagement.
 
 ## Popularity & Installs:
 
